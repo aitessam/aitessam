@@ -33,6 +33,7 @@ Most of my production work lives in employers' private repositories. Highlights:
 | Project | What it shows |
 |---|---|
 | [**MedRAG**](https://github.com/aitessam/MedRAG) | A medical assistant that answers questions from the patient's own record: hybrid search, cross-encoder reranking, voice, privacy-safe logging. Its evaluation report shows how measurement exposed a design flaw (the original gate would have refused 61% of answerable questions) and how it was fixed. 106 tests, CI, Docker. |
+| [**DocScribe**](https://github.com/aitessam/doc_scribe) | Live transcription of doctor-patient consultations in mixed Urdu and English, turned into a structured clinical note by a local (Ollama) or cloud LLM. Streaming speech-to-text, correct right-to-left Urdu rendering, and retries with typed errors from microphone to API. FastAPI and Streamlit, 29 tests, CI, Docker. |
 | [**Fintech-Agent-Arabic**](https://github.com/aitessam/Fintech-Agent-Arabic) | A LangGraph agent for Arabic and English financial documents (bank statements, KYC, loan forms). Entity extraction, calculations, SAMA-oriented compliance checks and a hash-chained audit trail. |
 | [**ARABERT_RAG**](https://github.com/aitessam/ARABERT_RAG) | RAG over Arabic PDFs with page-level citations. Handles right-to-left extraction, Arabic normalisation and mixed-script search. |
 | [**bilingual-clinical-rag**](https://github.com/aitessam/bilingual-clinical-rag) | English/Arabic clinical question answering with fused BM25 and dense retrieval, reranking, a LangGraph agent and RAGAS evaluation. |
